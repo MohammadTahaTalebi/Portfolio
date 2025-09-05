@@ -1,5 +1,7 @@
 import Experience from '@/components/Expriences';
 import HeroSection from '@/components/HeroSection';
+import pizaImage from '../../public/image/Piza.jpg';
+import TradingAiImage from '../../public/Image/TradingAI.jpg';
 import Image from 'next/image';
 import {
   FiCloud,
@@ -56,7 +58,7 @@ export default function Home() {
         TbBrandThreejs,
         SiFormik,
       ],
-      image: "/image/piza.jpg",
+      image: pizaImage,
       links: {
         github: "https://github.com/Navidreza80/Pisa.git",
         live: "https://pizarealestateapp.netlify.app/en",
@@ -78,7 +80,7 @@ export default function Home() {
         SiSocketdotio,
         SiShadcnui,
       ],
-      image: "/image/TradingAI.jpg",
+      image: TradingAiImage,
       links: {
         github: "https://github.com/Navidreza80/TradingAI.git",
         live: "https://tradingaiapp.netlify.app/",
